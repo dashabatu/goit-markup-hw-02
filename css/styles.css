@@ -1,0 +1,77 @@
+:root {
+    --primary-dark-color:#212121;
+    --secondary-dark-color:#757575;
+    --common-white:#FFFFFF;
+    --accent-color:#2196F3;
+    --main-background: #2F303A;
+    --secondary-background:#F5F4FA;
+    --main-font: 'Roboto', sans-serif;
+    --logo-font: 'Raleway', sans-serif;
+    --logo-size: 26px;
+    --title-size: 36px;
+    --text-main-size: 16px;
+    --text-secondary-size: 14px;
+    --title-cards-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+
+.header {width: 1600px; 
+        margin: 0 auto;
+        background-color: var(--common-white);
+        color:var(--primary-dark-color);
+    font-family: var(--main-font);
+font-size: var(--text-secondary-size)}
+
+.logo{font-family: var(--logo-font);
+    font-size: var(--logo-size);
+    color: var(--primary-dark-color);
+}
+.logoblue{
+    color: var(--accent-color);
+}
+.contacts a, .footer-contact a{
+    color: var(--secondary-dark-color);
+}
+.contacts a:hover{
+    color:var(--accent-color);
+}
+.footer-contact a:hover{
+    color: var(--common-white);
+}
+body{
+    font-family: var(--main-font);
+    background-color:var(--common-white);
+}
+
+.service{
+    background-color: #2F303A;
+    color:var(--common-white)
+    
+}
+button{
+    font-family: inherit;
+}
+
+h3, p{
+    font-size: var(--text-secondary-size);
+}
+h3, h2{
+    color:var(--primary-dark-color)
+}
+p{
+    color:var(--secondary-dark-color); 
+    line-height: 2.4em;
+}
+.title-hidden{
+    visibility: hidden;
+}
+.team-back{background-color:var(--secondary-background);}
+footer{background-color:var(--main-background)}
+
+.logo-footer{color: var(--common-white);
+font-family:var(--logo-font);font-size: var(--logo-size);}
+.button-buy{background-color:#2196F3;
+color:var(--common-white);
+height: 50px; width: 200px;}
